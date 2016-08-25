@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.wbkhealth.wbkhealthcareservicesapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/wbklogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wbklogo"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/mmc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Management Company"
+        android:layout_below="@id/wbklogo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WBK Healthcare Services, LLC is a comprehensive medical management company located in New Brighton Pa. We offer practice management solution for physicians. We handle all of your office needs such as scheduling, database management, and billing"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mmc"
+        android:textColor="#000000"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ph: 724-624-9259 | Fax 724-624-9259"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#D50000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1029 3rd Avenue New Brighton, Pa 15066 "
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/number"
+        android:layout_margin="10dp"
+        android:textColor="#D50000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.wbkhealth.com"
+        android:layout_above="@id/address"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D50000"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Appointment"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
